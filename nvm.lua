@@ -1,11 +1,3 @@
-MINIMUM_VALUE = 5000
-
-if getgenv().ImmortalHub then
-    return
-end
-
-getgenv().ImmortalHub = true
-
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
@@ -22,8 +14,6 @@ local RunService = game:GetService("RunService")
 local Workspace = game:GetService("Workspace")
 local VirtualUser = game:GetService("VirtualUser")
 local LocalPlayer = Players.LocalPlayer
-local CoinCollected = ReplicatedStorage.Remotes.Gameplay.CoinCollected
-local RoundStart = ReplicatedStorage.Remotes.Gameplay.RoundStart
 
 local events = {"MouseButton1Click", "MouseButton1Down", "Activated"}
 function TapUI(button, check, button2)
