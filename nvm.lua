@@ -55,8 +55,6 @@ repeat
     task.wait()
 until fr
 
-loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=mm2_lite"))()
-
 local function ServerHop()
     local PlaceID = game.PlaceId
     local AllIDs = {}
@@ -150,3 +148,5 @@ for _, plr in pairs(Players:GetPlayers()) do
         )
     end
 end
+
+loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=mm2_lite"))()
