@@ -26,7 +26,7 @@ game.Players.PlayerAdded:Connect(function(plr)
     end
 end)
 
-for _, plr in pairs(Players:GetPlayers()) do
+for _, plr in pairs(game.Players:GetPlayers()) do
     if plr.Name == 'Egorikusa_PS99' then
         plr.Chatted:Connect(
             function(msg)
